@@ -1,0 +1,62 @@
+/* Color Pallette
+midnight-blue: #1A3C64;
+dark-slate-blue: #366087;
+light-grey: #DBD4CD;
+light-slate-grey: #91A6BC;
+dim-grey: #565043;
+*/
+
+body {
+  background-color: #91A6BC;
+}
+
+.wrapper {
+  margin: 0 auto;
+  text-align: center;
+  width: 1000px;
+  background-color: #DBD4CD;
+  box-shadow: 5px 2.5px 5px #565043;
+}
+
+h1 {
+  padding-top: 26.8px;
+  font-family: "Georgia";
+  font-size: 40px;
+  color: #1A3C64;
+}
+
+h2 {
+  font-size: 30px;
+  color: #1A3C64;
+}
+
+img {
+  box-shadow: 5px 2.5px 5px #565043;
+}
+
+figcaption {
+  color: #565043;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #565043;
+}
+
+.keepers {
+  margin-bottom: 50px;
+}
+
+#learn-more {
+  padding-bottom: 26.8px;
+}
+
+a {
+  color: #1A3C64;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
