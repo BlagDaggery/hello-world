@@ -28,6 +28,7 @@ h1 {
 
 h2 {
   font-size: 30px;
+  font-family: "Georgia";
   color: #1A3C64;
 }
 
@@ -39,7 +40,7 @@ img {
 
 .img-container {
   margin: 0 auto;
-  width: 80%;
+  width: 90%;
   max-width: 800px;
 }
 
@@ -64,4 +65,16 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 700px) {
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 14px;
+  }
 }
