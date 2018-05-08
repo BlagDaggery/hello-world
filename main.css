@@ -13,7 +13,8 @@ body {
 .wrapper {
   margin: 0 auto;
   text-align: center;
-  width: 1000px;
+  width: 80%;
+  max-width: 1000px;
   background-color: #DBD4CD;
   box-shadow: 5px 2.5px 5px #565043;
 }
@@ -32,6 +33,14 @@ h2 {
 
 img {
   box-shadow: 5px 2.5px 5px #565043;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.img-container {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 800px;
 }
 
 p {
